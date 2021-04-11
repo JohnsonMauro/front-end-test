@@ -1,0 +1,27 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["@emotion"],
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@components": "./src/components",
+          "@core": "./src/core",
+          "@images": "./public/images",
+          "@layout": "./src/Layout",
+          "@lib": "./src/lib",
+          "@pages": "./pages",
+          "@public": "./public",
+          "@src": "./src",
+          "@styles": "./src/core/styles",
+          "@svg": "./public/svg",
+          "@test": "./__tests__/",
+          "@theme": "./src/theme",
+          "@utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}
