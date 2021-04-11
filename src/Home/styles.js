@@ -6,7 +6,7 @@ const HomePageStyles = styled.div`
   grid-template-columns: 65% 1fr;
   width: 100%;
 
-  @media (max-width: 576px) {
+  @media (max-width: 750px) {
     display: flex;
     flex-direction: column;
 

@@ -1,12 +1,16 @@
 import Profile from '@images/profile.png';
 import Button from '@core/components/Button';
+
 import {
   HeaderStyles,
-  HeaderImg,
+  HeaderImage,
+  HeaderInfoContent,
+  HeaderInfoContainer,
   HeaderMainTitle,
   HeaderMainSubTitle,
   HeaderIconContainer,
   HeaderIconContent,
+  HeaderContactMeContainer,
 } from './styles';
 
 const socialMediasIcons = [
@@ -19,19 +23,25 @@ const socialMediasIcons = [
 
 const Header = () => (
   <HeaderStyles>
-    <HeaderImg src={Profile} alt="A image of a man in a round style"></HeaderImg>
-    <HeaderMainTitle>James Lee</HeaderMainTitle>
-    <HeaderMainSubTitle>Web App Developer</HeaderMainSubTitle>
-    <HeaderIconContainer>
-      {socialMediasIcons.map(({ id, icon }) => (
-        <HeaderIconContent key={id}>
-          <i className={`fab ${icon}`}></i>
-        </HeaderIconContent>
-      ))}
-    </HeaderIconContainer>
-    <Button variant="success">
-      <i className="fas fa-paper-plane"></i> Contact Me
-    </Button>
+    <HeaderInfoContainer>
+      <HeaderImage src={Profile} alt="A image of a man in a round style" />
+      <HeaderInfoContent>
+        <HeaderMainTitle>James Lee</HeaderMainTitle>
+        <HeaderMainSubTitle>Web App Developer</HeaderMainSubTitle>
+        <HeaderIconContainer>
+          {socialMediasIcons.map(({ id, icon }) => (
+            <HeaderIconContent key={id}>
+              <i className={`fab ${icon}`}></i>
+            </HeaderIconContent>
+          ))}
+        </HeaderIconContainer>
+      </HeaderInfoContent>
+    </HeaderInfoContainer>
+    <HeaderContactMeContainer>
+      <Button variant="success">
+        <i className="fas fa-paper-plane"></i> Contact Me
+      </Button>
+    </HeaderContactMeContainer>
   </HeaderStyles>
 );
 
