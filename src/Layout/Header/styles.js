@@ -57,11 +57,7 @@ const HeaderIconContainer = styled.div`
   display: flex;
   justify-content: space-around;
   margin: 10px 0 40px;
-  width: 72%;
-
-  @media (max-width: 750px) {
-    width: 100%;
-  }
+  width: 100%;
 `;
 
 const HeaderIconContent = styled.div`

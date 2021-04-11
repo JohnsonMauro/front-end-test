@@ -31,11 +31,14 @@ const styles = css`
   h6,
   input,
   label,
-  p,
   section,
   select,
   span {
     font-family: ${theme.fonts.Montserrat};
+  }
+
+  p {
+    font-family: ${theme.fonts.Arial};
   }
 
   a {
