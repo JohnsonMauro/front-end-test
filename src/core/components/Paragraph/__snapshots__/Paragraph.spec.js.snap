@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paragraph /> Renders the Paragraph component 1`] = `
+.emotion-0 {
+  margin: 8px 0;
+}
+
+<div>
+  <p
+    class="emotion-0 emotion-1"
+  >
+    Sample
+  </p>
+</div>
+`;

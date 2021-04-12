@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Renders the Footer component 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-2 {
+  color: red;
+  font-size: 28px;
+}
+
+<div>
+  <footer
+    class="emotion-0 emotion-1"
+  >
+    <span
+      class="emotion-2 emotion-3"
+    >
+      <i
+        class="fas fa-heart"
+      />
+    </span>
+  </footer>
+</div>
+`;

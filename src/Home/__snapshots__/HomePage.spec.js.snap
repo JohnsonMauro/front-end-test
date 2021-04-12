@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> renders HomePage layout unchanged 1`] = `
+.emotion-0 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 65% 1fr;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .emotion-0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .emotion-0 section:nth-of-type(2) {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .emotion-0 section {
+    margin-bottom: 20px;
+  }
+}
+
+.emotion-2 {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 25px;
+  width: 100%;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.emotion-6 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.emotion-8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-10 {
+  margin: 8px 0;
+}
+
+.emotion-14 {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  width: 100%;
+}
+
+.emotion-16 {
+  margin: 15px 0;
+  width: 100%;
+}
+
+.emotion-18 {
+  display: inline-block;
+  width: 10%;
+}
+
+.emotion-20 {
+  color: #b0b7bf;
+  font-size: 14px;
+}
+
+.emotion-20 i {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.emotion-22 {
+  display: inline-block;
+  width: 90%;
+}
+
+.emotion-24 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.emotion-34 {
+  color: #43b578;
+  font-size: 14px;
+}
+
+.emotion-54 {
+  margin-bottom: 28px;
+}
+
+.emotion-56 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.emotion-58 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+.emotion-60 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  margin: 10px 0 16px;
+  text-align: center;
+}
+
+.emotion-62 {
+  background-image: url(mocked-file);
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 117px;
+  width: 100%;
+}
+
+.emotion-64 {
+  width: 102px;
+  height: 94px;
+  overflow: hidden;
+  position: relative;
+  top: -6px;
+  right: -181px;
+}
+
+.emotion-66 {
+  position: absolute;
+  display: block;
+  width: 189px;
+  padding: 11px 0;
+  background-color: #4b9fc6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-family: Montserrat,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+  left: -23px;
+  top: 20px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.emotion-72 {
+  background-color: #4b9fc6;
+  border: 1px solid #4b9fc6;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 35px;
+  outline: none;
+  padding: 0 22px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.emotion-74 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #eeeded;
+  margin: 3em 0;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-76 {
+  width: 100%;
+}
+
+.emotion-82 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 16px 0 0;
+}
+
+.emotion-122 {
+  margin: 13px;
+  width: 100%;
+}
+
+.emotion-124 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.emotion-126 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.emotion-128 {
+  color: #e9e9ea;
+  font-family: Montserrat,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.emotion-130 {
+  background-color: #e9e9ea;
+  height: 15px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.emotion-132 {
+  width: 95%;
+  background-color: #69ca8e;
+  height: 15px;
+}
+
+.emotion-168 {
+  width: 85%;
+  background-color: #69ca8e;
+  height: 15px;
+}
+
+.emotion-170 {
+  margin-top: 18px;
+  width: 100%;
+}
+
+<div>
+  <div
+    class="emotion-0 emotion-1"
+  >
+    <section
+      class="emotion-2 emotion-3"
+    >
+      <header
+        class="emotion-4 emotion-5"
+      >
+        <h1
+          class="emotion-6 emotion-7"
+        >
+          About Me
+        </h1>
+      </header>
+      <article
+        class="emotion-8 emotion-9"
+      >
+        <p
+          class="emotion-10 emotion-11"
+        >
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+        </p>
+        <p
+          class="emotion-10 emotion-11"
+        >
+          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+        </p>
+      </article>
+    </section>
+    <section
+      class="emotion-14 emotion-15"
+    >
+      <div
+        class="emotion-16 emotion-17"
+      >
+        <div
+          class="emotion-18 emotion-19"
+        >
+          <span
+            class="emotion-20 emotion-21"
+            color="#b0b7bf"
+            size="14"
+          >
+            <i
+              class="fas fa-map-marker-alt"
+            />
+          </span>
+        </div>
+        <div
+          class="emotion-22 emotion-23"
+        >
+          <span
+            class="emotion-24 emotion-25"
+          >
+            San Francisco, US
+          </span>
+        </div>
+      </div>
+      <div
+        class="emotion-16 emotion-17"
+      >
+        <div
+          class="emotion-18 emotion-19"
+        >
+          <span
+            class="emotion-20 emotion-21"
+            color="#b0b7bf"
+            size="14"
+          >
+            <i
+              class="far fa-envelope"
+            />
+          </span>
+        </div>
+        <div
+          class="emotion-22 emotion-23"
+        >
+          <a
+            class="emotion-34 emotion-35"
+            href="#"
+          >
+            jameslee@website.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="emotion-16 emotion-17"
+      >
+        <div
+          class="emotion-18 emotion-19"
+        >
+          <span
+            class="emotion-20 emotion-21"
+            color="#b0b7bf"
+            size="14"
+          >
+            <i
+              class="fas fa-link"
+            />
+          </span>
+        </div>
+        <div
+          class="emotion-22 emotion-23"
+        >
+          <a
+            class="emotion-34 emotion-35"
+            href="#"
+          >
+            https://www.website.com
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="emotion-2 emotion-3"
+    >
+      <header
+        class="emotion-4 emotion-5"
+      >
+        <h1
+          class="emotion-6 emotion-7"
+        >
+          Latest Projects
+        </h1>
+      </header>
+      <article
+        class="emotion-8 emotion-9"
+      >
+        <div
+          class="emotion-54 emotion-55"
+        >
+          <div
+            class="emotion-56 emotion-57"
+          >
+            <h2
+              class="emotion-58 emotion-59"
+            >
+              KickStarter - Potato Salad App
+            </h2>
+            <p
+              class="emotion-60 emotion-61"
+            >
+              A mobile app to help you make delicious potato salad
+            </p>
+          </div>
+          <div
+            class="emotion-62 emotion-63"
+          >
+            <div
+              class="emotion-64 emotion-65"
+            >
+              <span
+                class="emotion-66 emotion-67"
+              >
+                App
+              </span>
+            </div>
+          </div>
+          <p
+            class="emotion-10 emotion-11"
+          >
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+          </p>
+          <p
+            class="emotion-10 emotion-11"
+          >
+            It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          </p>
+        </div>
+        <button
+          class="emotion-72 emotion-73"
+          type="button"
+        >
+          <i
+            class="far fa-thumbs-up"
+          />
+           Back my project
+        </button>
+        <hr
+          class="emotion-74 emotion-75"
+        />
+        <div>
+          <img
+            alt="A image of Mac's dispositives like a computer, tablet and cellphone."
+            class="emotion-76 emotion-77"
+            src="mocked-file"
+          />
+          <div
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-56 emotion-57"
+            >
+              <h3
+                class="emotion-82 emotion-83"
+              >
+                Velocity - Desingned for Products
+              </h3>
+            </div>
+            <p
+              class="emotion-10 emotion-11"
+            >
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don't
+            look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden in the middle of text.
+            </p>
+            <a
+              class="emotion-34 emotion-35"
+              href="#"
+            >
+              <i
+                class="fas fa-external-link-alt"
+              />
+               Find out more
+            </a>
+          </div>
+        </div>
+        <div>
+          <img
+            alt="A image of a woman were retrating a system app."
+            class="emotion-76 emotion-77"
+            src="mocked-file"
+          />
+          <div
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-56 emotion-57"
+            >
+              <h3
+                class="emotion-82 emotion-83"
+              >
+                Tempo - Desingned for Startups
+              </h3>
+            </div>
+            <p
+              class="emotion-10 emotion-11"
+            >
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don't
+            look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden in the middle of text.
+            </p>
+            <a
+              class="emotion-34 emotion-35"
+              href="#"
+            >
+              <i
+                class="fas fa-external-link-alt"
+              />
+               Find out more
+            </a>
+          </div>
+        </div>
+        <div>
+          <img
+            alt="A image of a cellphone with a Delta app."
+            class="emotion-76 emotion-77"
+            src="mocked-file"
+          />
+          <div
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-56 emotion-57"
+            >
+              <h3
+                class="emotion-82 emotion-83"
+              >
+                Delta - Desingned for Mobile Apps
+              </h3>
+            </div>
+            <p
+              class="emotion-10 emotion-11"
+            >
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don't
+            look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden in the middle of text.
+            </p>
+            <a
+              class="emotion-34 emotion-35"
+              href="#"
+            >
+              <i
+                class="fas fa-external-link-alt"
+              />
+               Find out more
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section
+      class="emotion-2 emotion-3"
+    >
+      <header
+        class="emotion-4 emotion-5"
+      >
+        <h1
+          class="emotion-6 emotion-7"
+        >
+          Skills
+        </h1>
+      </header>
+      <article
+        class="emotion-8 emotion-9"
+      >
+        <p
+          class="emotion-10 emotion-11"
+        >
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+        </p>
+        <div
+          class="emotion-122 emotion-123"
+        >
+          <div
+            class="emotion-124 emotion-125"
+          >
+            <span
+              class="emotion-126 emotion-127"
+            >
+              Python & Django
+            </span>
+            <span
+              class="emotion-128 emotion-129"
+            >
+              Expert
+            </span>
+          </div>
+          <div
+            class="emotion-130 emotion-131"
+          >
+            <div
+              class="emotion-132 emotion-133"
+            />
+          </div>
+        </div>
+        <div
+          class="emotion-122 emotion-123"
+        >
+          <div
+            class="emotion-124 emotion-125"
+          >
+            <span
+              class="emotion-126 emotion-127"
+            >
+              Javascript & jQuery
+            </span>
+            <span
+              class="emotion-128 emotion-129"
+            >
+              Expert
+            </span>
+          </div>
+          <div
+            class="emotion-130 emotion-131"
+          >
+            <div
+              class="emotion-132 emotion-133"
+            />
+          </div>
+        </div>
+        <div
+          class="emotion-122 emotion-123"
+        >
+          <div
+            class="emotion-124 emotion-125"
+          >
+            <span
+              class="emotion-126 emotion-127"
+            >
+              HTML5, CSS3, SASS & LESS
+            </span>
+            <span
+              class="emotion-128 emotion-129"
+            >
+              Expert
+            </span>
+          </div>
+          <div
+            class="emotion-130 emotion-131"
+          >
+            <div
+              class="emotion-132 emotion-133"
+            />
+          </div>
+        </div>
+        <div
+          class="emotion-122 emotion-123"
+        >
+          <div
+            class="emotion-124 emotion-125"
+          >
+            <span
+              class="emotion-126 emotion-127"
+            >
+              Ruby on Rails
+            </span>
+            <span
+              class="emotion-128 emotion-129"
+            >
+              Pro
+            </span>
+          </div>
+          <div
+            class="emotion-130 emotion-131"
+          >
+            <div
+              class="emotion-168 emotion-133"
+            />
+          </div>
+        </div>
+        <div
+          class="emotion-170 emotion-171"
+        >
+          <a
+            class="emotion-34 emotion-35"
+            href="#"
+          >
+            <i
+              class="fas fa-external-link-alt"
+            />
+             More on Coderwall
+          </a>
+        </div>
+      </article>
+    </section>
+  </div>
+</div>
+`;

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> Renders the Section component 1`] = `
+.emotion-0 {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 25px;
+  width: 100%;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.emotion-4 {
+  color: #4b535f;
+  font-family: Montserrat,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.emotion-6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div>
+  <section
+    class="emotion-0 emotion-1"
+  >
+    <header
+      class="emotion-2 emotion-3"
+    >
+      <h1
+        class="emotion-4 emotion-5"
+      >
+        Title Sample
+      </h1>
+    </header>
+    <article
+      class="emotion-6 emotion-7"
+    >
+      Sample
+    </article>
+  </section>
+</div>
+`;

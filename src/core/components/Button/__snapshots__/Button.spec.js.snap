@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Renders the primary button component 1`] = `
+.emotion-0 {
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 35px;
+  outline: none;
+  padding: 0 22px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+<div>
+  <button
+    class="emotion-0 emotion-1"
+    type="button"
+  />
+</div>
+`;
+
+exports[`<Button /> Renders the secondary button component 1`] = `
+.emotion-0 {
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 35px;
+  outline: none;
+  padding: 0 22px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+<div>
+  <button
+    class="emotion-0 emotion-1"
+    type="button"
+  />
+</div>
+`;
