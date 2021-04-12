@@ -13,5 +13,5 @@ module.exports = {
       '<rootDir>//__mocks__/mockFile.js',
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
-  snapshotSerializers: ['@emotion/jest'],
+  snapshotSerializers: ['@emotion/jest/serializer'],
 };
